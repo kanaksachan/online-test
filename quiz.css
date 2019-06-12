@@ -1,0 +1,287 @@
+ .test-type{
+        border-top: 1px solid #ccc;
+    padding-top: 20px;
+    }
+	
+	.question_box{
+		width: 500px;
+	    margin: 0 auto;
+	    margin-top: 100px;
+	    overflow: hidden;
+	    font-family: 'open_sansregular';
+	}
+	.test-type h1{
+		color:#de4400;
+		font-size: 24px;
+	    font-weight: 600;
+	    
+	    margin: 0 0 10px;
+            text-align: center;
+	}
+	.test-type span{
+    color: #464646;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+        margin-bottom: 25px;
+         
+	}
+	.test-type p{
+		color:#0096e3;
+		margin: 0;
+       font-size: 15px;
+       text-align: right;
+           padding-top: 15px;
+           border-top: 1px solid #ccc;
+   
+	}
+        .test-type p span{
+            display: inline-block;
+            margin: 0;
+        }
+	.rest_time p{
+		margin: 0;
+       font-size: 15px;
+       text-align: right;
+   }
+
+   .questions_data{
+		border: #dcdcdc 1px solid;
+		margin-top: 15px;
+
+	}
+	.question_num{
+		font-size: 16px;
+	    padding:6px 10px;
+	    background: #eeeeee;
+	    border-bottom: #dcdcdc 1px solid;
+	}
+	.question_num h2{
+		margin: 0;
+	    font-size: 16px;
+	    font-weight: 400;
+	}
+		.question_num h2 span{
+			color:#333;
+			font-size:20px;
+		}
+		.answer_box{
+			padding: 0 15px;
+		}
+		.a_ans{
+			font-size: 15px;
+            margin: 10px 0;
+		}
+		.action_btns{
+			margin-top: 20px;
+			overflow: hidden;
+			
+		}
+		.action_btns .next,.action_btns .submit{
+			background: #393e6c;
+		    border: none;
+		    padding: 8px 20px 7px 20px;
+		    color: #fff;
+		    font-size: 16px;
+		    border-radius: 5px;
+		    line-height: 1.2;
+		    cursor: pointer;
+		    float: right;
+		    margin-left: 10px;
+        }
+		.score_box{
+			border: #dcdcdc 1px solid;
+		    width: 500px;
+            margin: 15px auto;
+        }
+		.resulthead{
+			padding: 15px;
+		    background: #4f569a;
+		    color: #fff;
+		    font-size: 18px;
+		    border-bottom: #dcdcdc 1px solid;
+		}
+		.resulthead h2{
+			color: #fff;
+		    font-size: 18px;
+		    margin: 0;
+        }
+		.marks{}
+		.marks p{
+			font-weight: 700;
+		    font-size: 20px;
+		    margin: 15px 0px;
+		    text-align: center;
+		}
+		.resultfoot{
+			background: #eee;
+		    padding: 15px 15px;
+		    border-top: #dcdcdc 1px solid;
+		}
+		.resultfoot p{
+			margin: 0;
+			color:#de4400;
+			font-weight: 700;
+		}
+		.resultfoot p span{
+			text-align: right;
+		    float: right;
+		    font-size: 22px;
+		    color: green;
+		}
+		.result_details{
+			padding: 0;
+			margin: 0 0 30px;
+			overflow: hidden;
+		}
+		.result_details li{
+			display: inline-block;
+			text-align: center;
+			width: 32%;
+			position: relative;
+			float: left;
+		}
+		.result_details li:first-child:after{
+			content:"";
+			border-top:dashed 1px #4f569a; 
+			position: absolute;
+			right: 0;
+		    top: 66%;
+		    width: 25%;
+		}
+		.result_details li:nth-child(2):after{
+			content:"";
+			border-top:dashed 1px #4f569a; 
+			position: absolute;
+			right: 0;
+		    top: 66%;
+		    width: 100%;
+		}
+		.result_details li:last-child:after{
+			content:"";
+			border-top:dashed 1px #4f569a; 
+			position: absolute;
+			left: 0;
+		    top: 66%;
+		    width: 25%;
+		}
+		.result_details li span{
+			color: #05acd6;
+            font-size: 18px;
+            display: block;
+            margin-bottom: 15px;
+            font-weight: 500;
+		}
+		.result_details li i{
+			width: 75px;
+		    height: 75px;
+		    border-radius: 100%;
+		    border: 2px solid #4f569a;
+		    color: #de4400;
+		    font-size: 35px;
+		    font-style: normal;
+		    text-align: center;
+		    font-weight: 600;
+		    display: inline-flex;
+		    align-items: center;
+		    justify-content: center;
+		    position: relative;
+		    z-index: 99;
+		    background: #fff;
+		}
+		.tab{display: none;}
+                .next[disabled = disabled] {
+                    background: #393e6c;
+                    cursor: initial;
+                    opacity: 0.3;
+                }
+                .submit[disabled = disabled] {
+                     background: #393e6c;
+                    cursor: initial;
+                    opacity: 0.3;
+                }
+                .email-wrap{
+                    border-top: 1px solid #ccc;
+                    padding: 15px 15px;
+                }
+                .email-wrap label{
+                    display: block;
+                    text-align: center;
+                }
+               .email-wrap input {
+                    color: #666;
+                    background: #fff;
+                    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+                    border: 1px solid #bbb;
+                    -webkit-border-radius: 3px;
+                    border-radius: 3px;
+                    display: block;
+                    padding: 11px;
+                    width: 96%;
+                    margin-top: 15px;
+                }
+                .result_scholl{
+                    border-top:#dcdcdc 1px solid
+                }
+                
+                
+         @media only screen and (max-width:992px) {
+             
+          .question_box {
+    width: 100%;margin-top: 10px;}   
+             
+         }       
+                
+                
+                    
+         @media only screen and (max-width:767px) {
+           .result_details li i {
+    width: 45px;
+    height: 45px;
+
+    font-size: 18px;}  
+      .result_details li span {
+
+    font-size: 14px;}
+    
+    .result_details li {
+    width: 33%;}
+    
+    .score_box {
+    width: 100%;
+}
+        
+        .resultfoot p {
+    margin: 0;
+    font-size: 12px;
+}
+        
+     .resultfoot p span {
+
+    float: none;
+    font-size: 16px;
+display:block;
+    margin-top: 12px;
+    text-align:left;
+}   
+             
+         }       
+                  
+                    
+         @media only screen and (max-width:630px) {
+             
+             
+             
+         } 
+         
+                     
+         @media only screen and (max-width:575px) {
+             
+             
+             
+         }       
+                
+                                
+                
+                
